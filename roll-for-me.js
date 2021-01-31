@@ -28,7 +28,7 @@ function rollForMe() {
 		hresults.innerHTML = "<b>Health roll:</b> " + healthRoll + "<br/> Brindle/reverse brindle/bird catcher spots/bend spots.";
 	}
 	else if (healthRoll >= 90 && healthRoll <= 99) {
-		hresults.innerHTML = "<b>Health roll:</b> " + healthRoll + "Some form of blindness.";
+		hresults.innerHTML = "<b>Health roll:</b> " + healthRoll + "<br/>Some form of blindness.";
 	}
 	else {
 		hresults.innerHTML = "<b>Health roll:</b> " + healthRoll + "<br/> Foal is healthy.";
