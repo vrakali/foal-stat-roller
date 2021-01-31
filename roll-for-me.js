@@ -1,10 +1,9 @@
-var genderRoll = Math.floor((Math.random() * 2) + 1);
-var healthRoll = Math.floor((Math.random() *100) + 1);
+function rollForMe() {	
+	var genderRoll = Math.floor((Math.random() * 2) + 1);
+	var healthRoll = Math.floor((Math.random() *100) + 1);
 
-var gresults = document.getElementById("gresults");
+	var gresults = document.getElementById("gresults");
 	var hresults = document.getElementById("hresults");
-
-function rollForMe() {
 	
 	if (1 % genderRoll === 1) {
 		gresults.innerHTML = "<b>Gender roll:</b> " + genderRoll + "<br/> <b>Gender:</b> It's a filly.";
